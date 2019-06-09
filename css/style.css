@@ -64,7 +64,7 @@ body {
 }
 
 #showcase {
-  background: #333 url(/images/michael-mims-130838-unsplash.jpg) no-repeat
+  background: #333 url("/images/michael-mims-130838-unsplash.jpg") no-repeat
     center center/cover;
   height: 100vh;
   color: var(--primary-color);
@@ -129,10 +129,17 @@ body {
 
 #where .container .left {
   flex: 1;
-  background: url(/images/bill-wegener-285004-unsplash.jpg) no-repeat center
+  background: url("/images/bill-wegener-285004-unsplash.jpg") no-repeat center
     center/cover;
+  height: 100%;
 }
 #where .container .right {
   flex: 1;
   background: var(--primary-color);
+}
+
+#where .container .left h2 {
+  margin-top: 50%;
+  font-size: 2rem;
+  color: white;
 }
