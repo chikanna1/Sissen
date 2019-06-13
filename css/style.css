@@ -80,6 +80,19 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.btn {
+  padding: 15px 25px;
+  border-radius: 5px;
+  background: var(--primary-color);
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  opacity: 0.7;
+}
+
+.btn:hover {
+  background: var(--secondary-color);
+}
 #showcase .showcase-content h1 {
   font-size: 5rem;
   line-height: 7rem;
@@ -136,10 +149,64 @@ body {
 #where .container .right {
   flex: 1;
   background: var(--primary-color);
+  margin-bottom: 200px;
 }
 
 #where .container .left h2 {
   margin-top: 50%;
   font-size: 2rem;
   color: white;
+}
+
+#where .container .right p {
+  padding: 10px 15px;
+}
+
+#main-footer {
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#footer-navbar {
+  display: flex;
+  top: 0;
+  position: sticky;
+  background: #fff;
+  color: #fff;
+  justify-content: center;
+  z-index: 1;
+}
+
+#main-footer .menu-links {
+  /* padding: 0; */
+}
+
+#footer-navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: right;
+}
+
+#footer-navbar ul li a {
+  color: #333;
+  padding: 1rem 0.5rem;
+  font-size: 15px;
+}
+
+.social-media-icons {
+  font-size: 10px;
+  margin-bottom: 0;
+  padding-top: 70px;
+  color: #333;
+}
+
+.social-media-icons a {
+  color: #333;
+}
+
+.social-media-icons a:hover,
+#footer-navbar ul li a:hover {
+  color: var(--primary-color);
 }
