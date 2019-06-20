@@ -22,9 +22,11 @@ function validateFields() {
     message.value === ""
   ) {
     showAlert("Please Enter All Fields!!!", "error");
+    window.scrollTo(0, 0);
     return false;
   } else {
     showAlert("Thank You for your Inquiry! We will respond ASAP", "success");
+    window.scrollTo(0, 0);
     return true;
   }
 }
