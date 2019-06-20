@@ -10,24 +10,59 @@
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <!-- <link rel="stylesheet" href="css/bootstrap.css" /> -->
     <link rel="stylesheet" href="css/style.css" />
-    <title>BootStrap Theme</title>
+    <title>SISSEN INC</title>
   </head>
   <body id="home" data-spy="scroll" data-target="#main-nav">
     <!-- NavBar -->
-    <nav id="navbar">
-      <a href="#home" class="logo">
-        <img src="/images/PHOTO-2019-05-15-17-57-43.jpg" alt="" />
-      </a>
-      <h1>Sissen Inc</h1>
-      <ul class="menu-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#home">About Us</a></li>
-        <li><a href="#home">Get Involved</a></li>
-        <li><a href="#home">Contact Us</a></li>
-      </ul>
-    </nav>
+    <div>
+        <nav
+          id="main-nav"
+          class="navbar bg-light navbar-light navbar-expand-md py-3"
+        >
+          <a href="#home" class="navbar-brand">
+            <img
+              src="images/PHOTO-2019-05-15-17-57-43.jpg"
+              width="50"
+              height="50"
+              alt=""
+              class="rounded-circle logo"
+            />
+            <h3 class="d-inline align-middle px-5">SISSEN</h3>
+          </a>
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="aboutus.html" class="nav-link">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="ourmission.html" class="nav-link">Our Mission</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="contactus.html" class="nav-link">Contact Us</a>
+                  </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+  
 
     <section id="showcase">
       <div class="showcase-content">
@@ -38,7 +73,7 @@
             STAY IN SCHOOL SOUTHEASTERN NIGERIA
         </p>
         <div>
-            <a href="aboutus" class="btn">Learn More</a>
+            <a href="aboutus.html" class="btn">Learn More</a>
         </div>
       </div>
     </section>
@@ -59,19 +94,21 @@
     </section>
 
     <!-- Where we are making an impact-->
+
     <section id="where">
-      <div class="container">
-        <div class="left">
-          <!-- <h2>Our Impact</h2> -->
-          <h4>
-            <!-- We are equipping hundreds of nigerian children with School supplies -->
-          </h4>
+            <div class="row text-center">
+                <div class="col-md-6 left-where">
+                    <div>
+  
+                    </div>
+                </div>
+                <div class="col-md-6 right-where text-center">
+                    <div class="d-flex flex-column  align-self-center">
+                        <h2 class="lead">Our Impact</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, earum!</p>
+                    </div>
+                </div>
         </div>
-        <div class="right">
-          <h2>Mission</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellat quo perspiciatis at voluptatum magni culpa rem, quisquam ratione ipsum!</p>
-        </div>
-      </div>
     </section>
 
     <footer id="main-footer">
@@ -91,11 +128,18 @@
             <div class="col-md-12 footer-nav">
                     <nav id="footer-navbar">
                             <ul class="menu-links">
-                              <li><a href="#home">Home</a></li>
-                              <li><a href="#home">About Us</a></li>
-                              <li><a href="#home">Get Involved</a></li>
-                              <li><a href="#home">Contact Us</a></li>
-                            </ul>
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link">Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="aboutus.html" class="nav-link">About Us</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="ourmission.html" class="nav-link">Our Mission</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="contactus.html" class="nav-link">Contact</a>
+                                  </li>
                           </nav>
             </div>
         </div>
