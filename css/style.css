@@ -81,8 +81,9 @@ body {
 }
 
 #showcase {
-  background: #333 url("/images/michael-mims-130838-unsplash.jpg") no-repeat
-    center center/cover;
+  background: #333
+    url("/images/african-children-black-children-children-2409929.jpg")
+    no-repeat center center/cover;
   height: 100vh;
   color: var(--primary-color);
 }
@@ -165,7 +166,7 @@ body {
   color: white;
 }
 #where .left-where {
-  background: url("/images/bill-wegener-285004-unsplash.jpg") no-repeat center
+  background: url("/images/boy-child-children-1002061.jpg") no-repeat center
     center/cover;
   height: 600px;
   margin-right: auto;
