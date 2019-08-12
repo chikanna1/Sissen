@@ -234,3 +234,52 @@ p {
 #who-we-are h1 {
   font-size: 2rem;
 }
+
+.top-section-donate {
+  background: rgba(167, 167, 167, 0.2);
+}
+
+#get-involved {
+  background: rgba(255, 254, 254, 0.2);
+}
+.participate {
+  padding-top: 180px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 180px;
+  margin-left: 0;
+}
+
+.participate a {
+  text-decoration: none;
+}
+
+.participate h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.donate-right {
+  /* background-color: var(--secondary-color); */
+  opacity: 0.4;
+  border-left: #333 solid 1px;
+}
+.donate-left {
+  /* background-color: var(--secondary-color); */
+  opacity: 0.4;
+}
+
+.donate-right:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0.8;
+}
+
+.donate-left:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0.8;
+}
+
+.bottom-section-donate {
+  background: url(/images/doug-linstedt-135670-unsplash.jpg) no-repeat center
+    center/cover;
+}
